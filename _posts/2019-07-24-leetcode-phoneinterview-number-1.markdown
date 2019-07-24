@@ -4,8 +4,8 @@ date: 2019-07-24 12:58:00 Z
 tags:
 - Leet code
 - Phone Interview
-author: System
-solved: 0
+author: Austin
+solved: false
 layout: post
 ---
 
