@@ -1,11 +1,8 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
+title:          Interview Questions Tracker
+description:    "Big4 Interview Questions Tracker"
 baseurl:        "/InterviewQuestion"
 url:            "https://austinph.me/InterviewQuestion/"
-
-# Google Analytics
-google_analytics: UA—XXXXXXXX-X
 
 # Author
 author:
