@@ -5,7 +5,7 @@ tags:
 - Leet code
 - Phone Interview
 author: System
-solved: true
+solved: 0
 layout: post
 ---
 
