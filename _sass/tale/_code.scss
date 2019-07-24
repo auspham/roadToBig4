@@ -44,3 +44,12 @@ pre code {
             user-select: none;
   }
 }
+
+.highlighter-rouge-solved{
+  color: $solved;
+}
+
+.tag {
+  color: $tag;
+  font-weight: bold;
+}

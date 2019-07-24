@@ -13,9 +13,11 @@ layout: default
           {% else %}
             <code class='highlighter-rouge'> Not Solved </code>
           {% endif %}
-
         </h1>
         <div class="catalogue-line"></div>
+        <p>{% for tag in page.tags %}
+          <code class="tag">{{ tag }}</code>
+        {% endfor %}</p>
 
         <p>
           {{ post.content | strip_html | truncatewords: 30 }}
