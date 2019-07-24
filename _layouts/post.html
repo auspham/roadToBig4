@@ -19,7 +19,13 @@ layout: default
 
   <h1 class="post-title">{{ page.title }}</h1>
   <div class="post-line"></div>
-  <center><code class='highlighter-rouge'>{{ page.tags }}</code></center>
+  <center>
+    {% if page.solved %}
+      <code class='highlighter-rouge-solved'>Solved</code>
+    {% else %}
+      <code class='highlighter-rouge'>Not Solved</code>
+    {% endif %}
+  </center>
 
   {{ content }}
 
