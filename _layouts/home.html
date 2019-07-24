@@ -7,7 +7,14 @@ layout: default
     <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
       <div>
         <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-        <h1 class="catalogue-title">{{ post.title }} <code class="highlighter-rouge"> {{ post.categories }} </code></h1>
+        <h1 class="catalogue-title">{{ post.title }} 
+          {%if post.solved %}
+            <code class="highlighter-rouge-solved"> Solved </code>
+          {% else %}
+            <code class='highlighter-rouge'> Not Solved </code>
+          {% endif %}
+
+        </h1>
         <div class="catalogue-line"></div>
 
         <p>
