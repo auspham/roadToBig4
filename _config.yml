@@ -1,8 +1,8 @@
 # Site settings
-title:          Interview Questions Tracker
-description:    "Big4 Interview Questions Tracker"
-baseurl:        "/InterviewQuestion"
-url:            "https://austinph.me/InterviewQuestion/"
+title:          RoadToBig4
+description:    "Big4 Interview Questions - Answers"
+baseurl:        "/roadToBig4"
+url:            "https://austinph.me/roadToBig4/"
 
 # Author
 author:
