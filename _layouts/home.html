@@ -8,9 +8,9 @@ layout: default
       <div>
         <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
         <h1 class="catalogue-title">{{ post.title }} 
-          {%if post.solved %}
+          {% if post.solved == 1 %}
             <code class="highlighter-rouge-solved"> Solved </code>
-          {% else %}
+          {% elseif post.solved == 0 %}
             <code class='highlighter-rouge'> Not Solved </code>
           {% endif %}
         </h1>

@@ -17,9 +17,9 @@ layout: default
     {% endif %}
   </div>
 
-  <h1 class="post-title">{{ page.title }}  {% if page.solved %}
+  <h1 class="post-title">{{ page.title }}  {% if page.solved == 1%}
     <code class='highlighter-rouge-solved'>Solved</code>
-  {% else %}
+  {% elseif page.solved == 0 %}
     <code class='highlighter-rouge'>Not Solved</code>
   {% endif %}</h1>
   <div class="post-line"></div>
