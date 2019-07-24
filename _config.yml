@@ -1,34 +1,32 @@
-# Site settings
-title:          RoadToBig4
-description:    "Big4 Interview Questions - Answers"
-baseurl:        "/roadToBig4"
-url:            "https://austinph.me/roadToBig4/"
-
-# Author
+---
+title: RoadToBig4
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+description: Big4 Interview Questions - Answers
+baseurl: "/roadToBig4"
+url: https://austinph.me/roadToBig4/
 author:
-  name:         Austin
-  url:          https://austinph.me
-
-# Build settings
-markdown:       kramdown
+  name: Austin
+  url: https://austinph.me
+markdown: kramdown
 include:
-  - _pages
-
-# Assets
+- _pages
 sass:
-  sass_dir:     _sass
-  style:        compressed
-
-# Gems
+  sass_dir: _sass
+  style: compressed
 plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-seo-tag
-  # - jemoji #Uncomment this to allow emoji in your post
-
-# Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       5
-
-# Excludes
-exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+- jekyll-feed
+- jekyll-paginate
+- jekyll-seo-tag
+permalink: "/:year-:month-:day/:title"
+paginate: 5
+exclude:
+- Gemfile
+- Gemfile.lock
+- tale.gemspec

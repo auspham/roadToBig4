@@ -1,8 +1,8 @@
 ---
+title: About
+permalink: "/about/"
 layout: post
-title: "About"
-author: "Austin"
-permalink: /about/
+author: Austin
 ---
 
 A simple blog for me and my friends to keep track of our difficult interview questions. Most of the questions are from leetcode.
