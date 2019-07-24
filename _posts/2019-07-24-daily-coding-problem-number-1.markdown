@@ -4,7 +4,7 @@ date: 2019-07-24 13:52:00 Z
 tags:
 - Google
 Author: Austin and JiaJun
-solved: 1
+solved: true
 ---
 
 Good morning! Here's your coding interview problem for today.
@@ -19,6 +19,24 @@ Bonus: Can you do this in one pass?
 
 **<u>SOLUTION</u>**
 
+*This solution is written by Austin and Jiajun, running in O(n) complexity*
 
->!  This is Austin and JiaJun solution. The algorithm runs O(n)
-> No you cant'
+```java
+public int findSum(arr, k) {
+  for(int i = 0; i < arr.length; i++) {
+    for(int j = i+1; j < arr.length; j++) {
+      if (!arr[j]) {
+        return false;
+      }
+      if (arr[j] + arr[i] === k) { 
+      	return true;
+      }
+    }
+  }
+  return false;
+}
+```
+
+
+
+
