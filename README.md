@@ -6,5 +6,5 @@ This website using tale: [here](https://chesterhow.github.io/tale/).
 
 Boolean values in posts
 - solved:
-  - `no` = Not Solved
-  - `yes` = Solved
+  - `0 || null` = Not Solved
+  - `1` = Solved
