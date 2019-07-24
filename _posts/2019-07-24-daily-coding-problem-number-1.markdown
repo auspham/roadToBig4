@@ -3,7 +3,7 @@ title: 'Daily Coding Problem #1'
 date: 2019-07-24 13:52:00 Z
 tags:
 - Google
-Author: Austin & JiaJun
+Author: Austin and JiaJun
 Solved: 1
 ---
 
