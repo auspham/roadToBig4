@@ -1,7 +1,7 @@
 # Site settings
 title:          Tale
 description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
+baseurl:        "/InterviewQuestion"
 url:            "https://austinph.me/InterviewQuestion/"
 
 # Google Analytics
