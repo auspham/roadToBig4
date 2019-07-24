@@ -5,6 +5,7 @@ tags:
 - Google
 Author: Austin and JiaJun
 solved: 1
+layout: post
 ---
 
 Good morning! Here's your coding interview problem for today.
