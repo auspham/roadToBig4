@@ -6,7 +6,13 @@
     <ul>
       <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
       <li><a href="{{ site.baseurl }}/">Posts</a></li>
-      <li><a href="{{ '/notSolved' | prepend: site.baseurl }}">Not Solved</a></li>
+      <li>
+        <select class="filter">
+          <option>All</option>
+          <option>Solved</option>
+          <option>Not Solved</option>
+        </select>
+      </li>
     </ul>
   </div>
 </nav>

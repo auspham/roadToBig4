@@ -38,3 +38,38 @@ layout: default
 
   <span>{{ paginator.page }}</span>
 </div>
+
+
+<script>
+    let changeFilter = (filter) => {
+      console.log('changing for', filter);
+      const catalogue = document.querySelector(".catalogue").children;
+      let name;
+      switch(filter) {
+        case 'All':
+          name = true;
+          [...catalogue].forEach(item => {
+              item.style.display = 'block';
+          });
+          return;
+        case 'Solved':
+          name = 'highlighter-rouge-solved';
+          break;
+        case 'Not Solved':
+          name = 'highlighter-rouge';
+          break;
+      }
+      [...catalogue].forEach(item => {
+        const classname = item.firstElementChild.childNodes[3].childNodes[1].className;
+        if (item.firstElementChild.childNodes[3].childNodes[1].className !== name) {
+          item.style.display = 'none';
+        } else {
+          item.style.display = 'block';
+        }
+      });
+    };
+
+    const selection = document.querySelector(".filter");
+    changeFilter(selection.value);
+    selection.addEventListener('change', () => changeFilter(selection.value), false);
+</script>

@@ -64,3 +64,13 @@ img {
 td {
   vertical-align: top;
 }
+
+
+select {
+  border: 1px solid $default-shade;
+  height: 2em;
+
+  &:focus {
+    outline: none;
+  }
+}
