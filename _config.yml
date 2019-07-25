@@ -10,7 +10,7 @@ collections:
     output: true
 description: Big4 Interview Questions - Answers
 baseurl: "/roadToBig4"
-url: /roadToBig4/
+url: "/roadToBig4/"
 author:
   name: Austin
   url: https://austinph.me
