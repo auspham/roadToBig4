@@ -20,7 +20,7 @@ Bonus: Can you do this in one pass?
 
 **<u>SOLUTION</u>**
 
-*This solution is written by Austin and Jiajun, running in O(n^2) complexity*
+*This solution is written by Austin and Jiajun, running in $$O(n^2)$$ complexity*
 
 ```java
 public int findSum(arr, k) {
