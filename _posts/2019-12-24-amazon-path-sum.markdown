@@ -1,6 +1,7 @@
 ---
 title: Amazon Path Sum
 date: 2019-12-24 09:27:00 Z
+solved: true
 ---
 
 Given a binary tree and a sum, determine if the tree has a root-to-leaf path such that adding up all the values along the path equals the given sum.
