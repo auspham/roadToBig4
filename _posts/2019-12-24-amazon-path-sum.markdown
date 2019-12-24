@@ -1,6 +1,8 @@
 ---
 title: Amazon Path Sum
 date: 2019-12-24 09:27:00 Z
+tags:
+- Amazon
 solved: true
 ---
 
