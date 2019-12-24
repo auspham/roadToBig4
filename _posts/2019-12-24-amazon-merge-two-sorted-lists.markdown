@@ -1,6 +1,8 @@
 ---
 title: Amazon Merge Two Sorted Lists
 date: 2019-12-24 09:23:00 Z
+tags:
+- Amazon
 Field name:
   solved: true
 ---
