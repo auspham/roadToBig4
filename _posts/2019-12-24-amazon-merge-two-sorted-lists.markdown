@@ -3,8 +3,7 @@ title: Amazon Merge Two Sorted Lists
 date: 2019-12-24 09:23:00 Z
 tags:
 - Amazon
-Field name:
-  solved: true
+solved: true
 ---
 
 Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists.
